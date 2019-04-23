@@ -2,9 +2,7 @@
 class CountriesActionController {
 
     //attributes
-    protected $_actionMessage;
-    protected $_typeMessage;
-    protected $_source;
+   
     protected $_CountriesManager;
     protected $_validation;
    

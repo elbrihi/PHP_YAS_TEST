@@ -20,6 +20,7 @@ class Validator
     }
     public function inputValTwoCountries($post)
     {
+        
         if(strlen($post['first_country']) > 2)
         {
             if(strlen($post['second_country']) > 2)
