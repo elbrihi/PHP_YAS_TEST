@@ -1,0 +1,14 @@
+{
+    "name": "sino/php_test_yas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elbrihi yasine",
+            "email": "elbrihiyasien3@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
