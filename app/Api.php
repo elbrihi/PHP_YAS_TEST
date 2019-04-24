@@ -12,12 +12,23 @@ Abstract class Api
     abstract protected function getAllContries();
     abstract protected function getContriesByName();
     
+    /**
+     *  
+     * 
+     *  translate code json of api of all countries  in array form
+     *  @return array 
+     */
     public function getAllCountriesAbsruct():array
     {
 		return $this->getApi($this->apiAll);
     }
 
-    
+     /**
+     * @param array 
+     * 
+     *  translate code json of api of country name  in array form
+     *  @return array 
+     */
     public function getContriesByNameAbtsruct($post):array
     {
         (string) $country = $post['country'];
@@ -27,6 +38,13 @@ Abstract class Api
         return $this->getApi($searchByCountryName);
 
     }
+  
+    /**
+     * @param array 
+     * 
+     *  translate code json of api  in array form
+     *  return array 
+     */
     public function getApi($api)
     {
         
