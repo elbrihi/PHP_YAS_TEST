@@ -14,7 +14,11 @@ class CountriesActionController {
     	
     }
 
-
+    /**
+     * @param array 
+     * 
+     * get html code of all countries speack same languagues after validate input  
+     */
     public function loadCountries($post)
     {
         if($this->_validation->inputValSameLanuguages($post))
@@ -23,6 +27,11 @@ class CountriesActionController {
         }
            
     }
+    /**
+     * @param array 
+     * 
+     * get html code of the two countries speacks same language or not  
+     */
     public function twoCountries($post)
     {
         
