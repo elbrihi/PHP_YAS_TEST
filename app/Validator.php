@@ -6,6 +6,13 @@ class Validator
     {
         
     }
+    /**
+     * 
+     * 
+     * 
+     * 
+     * 
+     */
     public function inputValSameLanuguages($post)
     {
         if(strlen($post['country']) < 2)
@@ -18,6 +25,12 @@ class Validator
             return 1;
         }
     }
+    /**
+     * 
+     * 
+     * 
+     * 
+     */
     public function inputValTwoCountries($post)
     {
         

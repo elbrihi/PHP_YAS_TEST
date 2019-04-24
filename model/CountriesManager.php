@@ -148,6 +148,7 @@ class CountriesManager extends Api{
 		
 		$allCountries = $this->getAllContries();
 		$searchByCountryNames = $this->getContriesByNameAbtsruct($post);
+		
 		foreach($searchByCountryNames as $searchByCountryName)
 		{
 			$langNamesCountries = $searchByCountryName['languages'];
