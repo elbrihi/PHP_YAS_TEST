@@ -8,16 +8,13 @@ class Validator
     }
     /**
      * 
-     * 
-     * 
-     * 
-     * 
+     *validate if the field tackes more than 2 characters 
      */
     public function inputValSameLanuguages($post)
     {
         if(strlen($post['country']) < 2)
         {
-            echo 'field valus must take more than one caractaire';
+            echo 'field valus must take more than one charactaire';
 
         } 
         else
@@ -29,7 +26,7 @@ class Validator
      * 
      * 
      * 
-     * 
+     *validate if the two fields tackes more than 2 characters  
      */
     public function inputValTwoCountries($post)
     {

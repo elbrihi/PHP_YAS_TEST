@@ -17,7 +17,7 @@ Abstract class Api
 		return $this->getApi($this->apiAll);
     }
 
-
+    
     public function getContriesByNameAbtsruct($post):array
     {
         (string) $country = $post['country'];
