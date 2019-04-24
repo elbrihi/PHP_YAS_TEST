@@ -19,6 +19,7 @@ session_start();
 
         <div class="row">  
             <div class="input-daterange">
+                <h4>entre the country name as "Spain" to get all the countries that speacks same language</h4>
                 <div class="col-md-8">
                     <input type="text" name="country" id="country"  class="form-control" />
                 </div>     
@@ -37,6 +38,7 @@ session_start();
         </div>
         <div class="row">  
             <div class="input-daterange">
+                <h4>entre  two countries name as "Spain and Morocco " to check if those speacks same language or not </h4>
                 <div class="col-md-4">
                     <input type="text" name="country" id="first_country"  class="form-control" />
                 </div>
