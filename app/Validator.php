@@ -44,7 +44,7 @@ class Validator
         }
         else
         {
-            echo 'the first contry must take more than s characteres';
+            echo 'the first contry must take more than two characteres';
         }
         
         
